@@ -1,0 +1,22 @@
+package entities;
+
+public class Rectangle {
+	
+	public double width;
+	public double height;
+	
+	public double area(double area) {
+		area = width * height;
+		return area;
+	}
+	
+	public double perimeter(double perimeter) {
+		perimeter = 2 * (width + height);
+		return perimeter;
+	}
+	
+	public double diagonal() {
+		return Math.sqrt(width * width + height * height);
+	}
+
+}
