@@ -5,14 +5,13 @@ public class Rectangle {
 	public double width;
 	public double height;
 	
-	public double area(double area) {
-		area = width * height;
-		return area;
+	public double area() {
+		return width * height;
 	}
 	
-	public double perimeter(double perimeter) {
-		perimeter = 2 * (width + height);
-		return perimeter;
+	public double perimeter() {
+		return 2 * (width + height);
+		
 	}
 	
 	public double diagonal() {
